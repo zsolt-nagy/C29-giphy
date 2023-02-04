@@ -18,7 +18,7 @@ function renderImages(response) {
 }
 
 function getUrl(topic, numOfImages) {
-    const API_PREFIX = 'https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}';
+    const API_PREFIX = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}`;
     return `${API_PREFIX}&q=${topic}&limit=${numOfImages}&offset=0&rating=g&lang=en`;
 }
 
