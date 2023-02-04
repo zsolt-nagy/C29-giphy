@@ -6,3 +6,23 @@ body {
     background-color: black;
     color: whitesmoke;
 }
+
+.invisible {
+    display: none;
+}
+
+.error {
+    color: #db4848;
+}
+
+.gifs-container {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.meme-image {
+    margin: 2rem;
+    border: 3px solid deepskyblue;
+}

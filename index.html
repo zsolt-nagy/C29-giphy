@@ -9,6 +9,28 @@
 </head>
 <body>
     <h1>Giphy Memes</h1>
+
+    <form action="#" method="GET" class="js-form">
+        <label>
+            Topic:
+            <input type="text" name="topic" class="js-topic-input" />
+        </label>
+        <label>
+            Number of gifs:
+            <select name="numOfImages" class="js-num-of-images">
+                <option value="1">1</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+            </select>
+        </label>
+        <button type="submit">Get Memes</button>
+        <div class="error js-error"></div>
+    </form>
+
+    <div class="js-gifs-container gifs-container"></div>
+
+    <script src="./constants.js"></script>
     <script src="./giphy.js"></script>
 </body>
 </html>
