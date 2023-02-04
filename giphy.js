@@ -1,0 +1,1 @@
+console.log('giphy.js is running');
