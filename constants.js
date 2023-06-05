@@ -1,1 +1,1 @@
-const API_KEY = 'etODhWmGQ37u8SXO3sg1KksVf2WgMqMt';
+const API_KEY = 'nZhfWHQyXwyWpoQkTvcF5d3zB07P4bwG'; // For sensitive API keys, consider proper protection.
